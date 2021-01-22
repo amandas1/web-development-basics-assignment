@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>website</title>
+</head>
+<body>
+	
+		<h1>By clicking on the get button it will send a GET request to the below URL to fetch the sample posts</h1>
+	<form method="GET" action="https://jsonplaceholder.typicode.com/posts">
+		<button type="submit">GET</button>
+	</form>
+	
+	
+	<h1>By clicking on the POST button it will send a POST request to the below URL to add a sample post  </h1>
+	<form method="POST" action="https://jsonplaceholder.typicode.com/posts">
+		<input type="text" id="title" placeholder="title" name="title"><br><br>
+		<input type="text" id="body" placeholder="body"name="body"><br><br>
+		<input type="number" id="userId" placeholder="userId"name="userId"><br><br>
+		<button type="submit">POST</button>
+	</form>
+
+</body>
+</html>
